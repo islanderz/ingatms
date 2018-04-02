@@ -21,10 +21,11 @@ Document explaining the solution and how it was implemented.
 
 - The easiest way to run the project is to run the executable jar within the embedded Tomcat servlet container provided by Spring’s support for as the HTTP runtime.
 - Steps:  
-	* Checkout using 
+	* Checkout using: git clone https://github.com/islanderz/ingatms.git  
 	* Go to root folder of the project: ingatms\
 	* Run executable jar from the command prompt:  mvn package && java -jar target/ingatms-0.0.1-SNAPSHOT.jar
 	* Access the application: http://localhost:8080/
+	* Login using  username: user ,  password: password 
 	
 -  As it was requested, a WAR file was also packaged for external Tomcat, but not tested!!
 
@@ -33,14 +34,14 @@ Document explaining the solution and how it was implemented.
 ## Development Tools 
 JAVA: 1.8.0_144
 Editor: Spring Tool Suite(STS) Version: 3.9.1.RELEASE
-Maven: apache-maven-3.5.3
-Main libraries:  sprint-boot-2.0.0, thymeleaf-3.0.9
+Maven: apache-maven-3.5.3 
 
 ## Implementation 
 
-- Use handy Spring Initializr (https://start.spring.io/) to bootstrap a skeleton Spring Boot web application with essential dependencies.   
-- Spring security login page is already added 
-- Import into STS
+- Used handy Spring Initializr (https://start.spring.io/) to bootstrap a skeleton Spring Boot web application with essential dependencies.   
+- Spring security login page is already added, including Spring MVC configurations and Thymeleaf.  
+- Imported into STS 
 - 
+
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key
 
